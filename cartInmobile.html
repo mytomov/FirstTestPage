@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="cartInMobile.css">
+</head>
+<body>
+<nav>
+    <ul class="navTopLeft responsive" id="dropDownClick">
+        <li class="navLiLeft"><a href="../Home/HomePage.html">Home</a></li>
+        <li class="navLiLeft"><a href="../Shop/ShopPage.html">Shop</a></li>
+        <li class="navLiLeft"><a href="#news">News</a></li>
+        <li class="navLiRight"><a href="#signIn">Sign In</a></li>
+        <li class="navLiRight"><a href="#signUp">Sign Up</a></li>
+        <li class="dropDownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+        <li class="navLiCart"><a href="javascript:void(0);">&#128722;</a></li>
+    </ul>
+</nav>
+<row>
+    <div class="col-4 topRightCol">
+        <div>
+            <h2 class="topRightColHeader">Cart</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-4 topInnerRightCols">
+                <h3 class="leftSide">Items:</h3>
+            </div>
+            <div class="col-4 topInnerRightCols">
+                <h3 class="middleSide">Quantity:</h3>
+            </div>
+            <div class="col-4 topInnerRightCols">
+                <h3 class="rightSide">Price:</h3>
+            </div>
+        </div>
+        <div>
+            <h2>Total Amount:</h2>
+        </div>
+        <div>
+            <button class="topRightButton" type="button">Buy</button>
+        </div>
+    </div>
+</row>
+
+<script src="../Home/NavRes.js"></script>
+</body>
+</html>
